@@ -1,16 +1,10 @@
-<script>
-import TabComponent from '../components/TabComponent.vue';
-
-export default {
-    components: {
-        TabComponent
-    }
-}
+<script setup lang="ts">
+import ResponsiveTab from '@/components/ResponsiveTab.vue';
 </script>
 
 <template>
     <main class="container--responsive-tabs">
-        <TabComponent/>
+        <ResponsiveTab/>
     </main>
 </template>
 
